@@ -7,10 +7,9 @@ import Type from "./Type";
 const Layout = () => {
   return (
     <div>
-    <ImgCarousel />
-    <Products />
-   
-        </div>
+      <ImgCarousel />
+      <Products />
+    </div>
   );
 };
 

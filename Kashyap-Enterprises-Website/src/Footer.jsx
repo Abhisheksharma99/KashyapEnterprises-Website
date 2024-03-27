@@ -3,32 +3,33 @@ import "./index.css";
 import WhiteLogo from "./WHITE-LOGO-1.png";
 import IndiamartLogo from "./images/IndiamartLogo.svg";
 const Footer = () => {
+  let currentDate = new Date()
   return (
-    <div className="container-fluid bg-dark footerbg">
+    <div className="container-fluid bg-dark footerbg mx-auto">
       <footer className="text-center text-lg-start text-white">
         <section className="d-flex justify-content-between p-4 sociallinks">
           <div className="me-5">
             <span className='fw-bolder'>Get connected with us on social networks:</span>
           </div>
 
-          <div class="iconcontainer">
-        <a class="linkicon linkedin">
-            <i class="fab fa-2x fa-linkedin"></i>
+          <div className="iconcontainer">
+        <a className="linkicon linkedin">
+            <i className="fab fa-2x fa-linkedin"></i>
         </a>
-        <a class="linkicon twitter">
-            <i class="fab fa-2x fa-twitter"></i>
+        <a className="linkicon twitter">
+            <i className="fab fa-2x fa-twitter"></i>
         </a>
-        <a class="linkicon instagram">
-            <i class="fab fa-2x fa-instagram"></i>
+        <a className="linkicon instagram">
+            <i className="fab fa-2x fa-instagram"></i>
         </a>
-        <a class="linkicon youtube">
-            <i class="fab fa-2x fa-youtube"></i>
+        <a className="linkicon youtube">
+            <i className="fab fa-2x fa-youtube"></i>
         </a>
-        <a class="linkicon facebook">
-            <i class="fab fa-2x fa-facebook-f"></i>
+        <a className="linkicon facebook">
+            <i className="fab fa-2x fa-facebook-f"></i>
         </a>
-        <a href="//api.whatsapp.com/send?phone=917019797893&text=Hi!, I have a query regarding " class="linkicon whatsapp">
-            <i class="fab fa-2x fa-whatsapp"></i>
+        <a href="//api.whatsapp.com/send?phone=917019797893&text=Hi!, I have a query regarding " className="linkicon whatsapp">
+            <i className="fab fa-2x fa-whatsapp"></i>
         </a>
     </div>
             
@@ -121,7 +122,7 @@ const Footer = () => {
           </div>
         </section>
         <div className="text-center pb-2 fw-bold">
-          © 2022 Copyright
+          © 2003 - {currentDate.getFullYear()} Copyright
           <a
             className="text-white ms-2 fw-bold"
             target="_blank"

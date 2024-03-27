@@ -113,7 +113,7 @@
 * {box-sizing:border-box}
 
 .carouselimg{
-  height:800px;
+  height:500px;
   width:auto;
 }
 .captionclr{
@@ -175,12 +175,12 @@
   border-bottom: 3px solid #17215c !important;
   color: #17215c;
 }
-.productheading:hover{
+/* .productheading:hover{
   border-bottom: 3px solid #17215c;
   transition: ease-in;
   transition-duration: 0.5s;
   margin-left: 50px;
-}
+} */
 .sociallinks{
   background-color: #17215c !important;
 }
@@ -192,9 +192,25 @@
   .abttitle{
     font-size: 30px;
   }
+  .map {
+    margin-top: 120px;
+  }
   .abttitle:hover{
     font-size: 30px !important;
   }
+  .submit-btn {
+    float: right;
+  }
+  .formdivider {
+    border-right:3px solid white !important;
+    height: 400px !important;
+  }
+  .mailSent {
+    margin-top: 100px;
+    height: 600px !important;
+    width: 400px !important;
+  }
+  
 }
 /*Footer icons hover effects*/
 .iconcontainer {
@@ -267,7 +283,12 @@ a:hover i {
 }
 /*Contact Us*/
 .formdivider{
-  border-right : 3px solid #17215c !important;
+  border-right : 3px solid #17215c;
+  height: 520px;
+}
+
+.invalid-form {
+  border: 2px solid red !important;
 }
 .contactshadow{
   box-shadow: 0 4px 8px 0 #17215c, 0 6px 20px 0 #17215c;
@@ -275,10 +296,16 @@ a:hover i {
 .contacthead{
   color: #17215c !important;
 }
+.mailSent {
+  justify-content: center;
+  margin-top: 100px;
+  height: 1000px;
+  width: 800px;
+}
 .formbg{
-  /* background-image: url("images/background-contact-us.png"); */
+  background-image: url("images/background-contact-us.png");
   background-size: cover;
-  /* border: 5px double #17215c; */
+  border: 5px double #17215c;
 }
 .emailicon{
   color: #17215c;

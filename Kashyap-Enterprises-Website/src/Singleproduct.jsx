@@ -13,13 +13,13 @@ const Singleproduct = ({value}) => {
     }, []);
     
     console.log(value)
-  return <div className='mt-3'>
-      <div className='row'>
-          <div className='col-lg'>
-              <img id="single" className=' mb-3 border' src={productimg} alt="" />
+  return <div className='container justify-content-center mt-5'>
+      <div className='row mt-5'>
+          <div className='col-lg mt-5'>
+              <img id="single"  height={400} className='mt-3 mb-2 border' src={productimg} alt="" />
           </div>
-            <div className='col-lg'>
-            <h1 className='fw-bolder fs-1 mt-5 producthead'>{productdetails[0].name}</h1>
+            <div className='col-lg mt-5'>
+            <h1 className='fw-bolder fs-1 producthead'>{productdetails[0].name}</h1>
             <p className='fw-bold text-muted productdesc h1style'>{productdetails[0].desc}</p>
             <p className='text-dark'>{productdetails[0].summary}</p>
             </div>

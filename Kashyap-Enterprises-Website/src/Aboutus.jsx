@@ -12,31 +12,31 @@ import IsoCertificate from "./images/Isocertificate.jpg"
 import udhyamcertificate from "./images/udhyamcertificate.jpg"
 const Aboutus = () => {
   return (
-    
+
     <div>
-    <div>
+      <div>
         <div><h1>&nbsp;&nbsp;</h1></div>
+      </div>
+      <div className="row align-items-center text-center mb-5 mt-5 pt-5">
+        <div className="col">
+          <img height={100} src={iso} alt="" />
         </div>
-  <div class="row align-items-center text-center mb-5">
-    <div class="col">
-      <img height={100} src={iso} alt="" />
-    </div>
-    <div class="col">
-      <img height={100} src={iso2} alt="" />
-    </div>
-    <div class="col">
-      <img height={100} src={isologo} alt="" />
-    </div>
-    <div className="col">
-      <img height={100} src={makeindia} alt="" />
-    </div>
-    <div className="col">
-      <img height={100} src={msme} alt="" />
-    </div>
-  </div>
+        <div className="col">
+          <img height={100} src={iso2} alt="" />
+        </div>
+        <div className="col">
+          <img height={100} src={isologo} alt="" />
+        </div>
+        <div className="col">
+          <img height={100} src={makeindia} alt="" />
+        </div>
+        <div className="col">
+          <img height={100} src={msme} alt="" />
+        </div>
+      </div>
       <div className="container text-center">
-        
-        <h1 className="fw-bold text-center mb-5 abthead"><span className="abttitle"><img height="50px" src={history} alt="history"/> &nbsp;Our History &nbsp;<img height="50px" src={history} alt="history"/></span></h1>
+
+        <h1 className="fw-bold text-center mb-5 abthead"><span className="abttitle"><img height="50px" src={history} alt="history" /> &nbsp;Our History &nbsp;<img height="50px" src={history} alt="history" /></span></h1>
         <p className="mb-5 text-muted fw-bolder">
           Kashyap Enterprises (KE) is a chemical manufacturing company founded
           by Ranjeet Banerjee in 2003 in Faridabad, India. Kashyap Enterprises
@@ -60,7 +60,7 @@ const Aboutus = () => {
           </p>
         </div>
         <div className="col-lg-6">
-          <h1 className="fw-bold border-bottom mb-5 abthead"><span className="abttitle text-nowrap"><img height="50px" src={medal} alt="history"/>Our Core Values<img height="50px" src={medal} alt="history"/> </span></h1>
+          <h1 className="fw-bold border-bottom mb-5 abthead"><span className="abttitle text-nowrap"><img height="50px" src={medal} alt="history" />Our Core Values<img height="50px" src={medal} alt="history" /> </span></h1>
           <p className='text-muted fw-bold'>
             Integrity - We uphold the highest standards of integrity in all of
             our actions. <br /> Innovation - We are resolute in pursing
@@ -74,7 +74,7 @@ const Aboutus = () => {
         </div>
       </section>
       <div className="container text-center">
-        <h1 className="fw-bold border-bottom mb-5 abthead"><span className="abttitle"><img height="50px" src={dart} alt="history"/> Our Vision <img height="50px" src={dart} alt="history"/></span></h1>
+        <h1 className="fw-bold border-bottom mb-5 abthead"><span className="abttitle"><img height="50px" src={dart} alt="history" /> Our Vision <img height="50px" src={dart} alt="history" /></span></h1>
         <p className='text-muted fw-bold'>
           To be the market leader in the “Speciality Chemicals domain” with a
           Global perspective by exceeding Customer expectations in Quality and
@@ -85,17 +85,15 @@ const Aboutus = () => {
       </div>
       <div className="row align-items-center text-center mt-5">
         <div className="col">
-        <img height={580} src={IsoCertificate} alt="Iso Certificate" />
+          <img height={400} src={IsoCertificate} alt="Iso Certificate" />
         </div>
         <div className="col">
-
-        <img height={580} src={udhyamcertificate} alt="Udhyam Certificate" />
+          <img height={435} src={udhyamcertificate} alt="Udhyam Certificate" />
         </div>
       </div>
-      
       <div><h1>&nbsp;&nbsp;</h1></div>
     </div>
-    
+
   );
 };
 

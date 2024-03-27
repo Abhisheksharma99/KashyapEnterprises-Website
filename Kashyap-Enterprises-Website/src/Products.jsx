@@ -1,7 +1,6 @@
 import React from "react";
 import productimg from "./images/50-ltr-rocket-can-500x500.jpg";
 import "./index.css";
-import { Link } from "react-router-dom";
 const Products = () => {
   return (
     <div className="container mb-4">
@@ -14,15 +13,15 @@ const Products = () => {
             <img src={productimg} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title fw-bold">Defoamers & Antifoams</h5>
-              <p className="card-text">
-              </p>
+              <p className="card-text"></p>
               <button
                 className="btn-outline modalbtn btn fw-bold"
                 data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop1"
               >
-               <a href="/products#defoamers"><span className='text-white'>View Varients</span></a>
-                
+                <a href="/products#defoamers">
+                  <span className="text-white">View Varients</span>
+                </a>
               </button>
             </div>
           </div>
@@ -32,19 +31,17 @@ const Products = () => {
           <div className="cardshadow card cardborder">
             <img src={productimg} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title fw-bold ">
-                Silicone Emulsion
-              </h5>
-              <p className="card-text">
-              
-              </p>
+              <h5 className="card-title fw-bold ">Silicone Emulsion</h5>
+              <p className="card-text"></p>
               <button
                 className="btn-outline modalbtn btn fw-bold"
                 data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop2"
               >
-               <a href="/products#siliconeemulsions"> <span className='text-white'>View Varients</span></a>
-                
+                <a href="/products#siliconeemulsions">
+                  {" "}
+                  <span className="text-white">View Varients</span>
+                </a>
               </button>
             </div>
           </div>
@@ -54,17 +51,15 @@ const Products = () => {
             <img src={productimg} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title fw-bold">Paper and Pulp Chemicals</h5>
-              <p className="card-text">
-                
-              </p>
+              <p className="card-text"></p>
               <button
                 className="btn-outline modalbtn btn fw-bold"
                 data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop3"
               >
-                <a href="/products#paperandpulp"><span className='text-white'>View Varients</span></a>
-                
-                
+                <a href="/products#paperandpulp">
+                  <span className="text-white">View Varients</span>
+                </a>
               </button>
             </div>
           </div>
@@ -74,18 +69,15 @@ const Products = () => {
             <img src={productimg} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title fw-bold">Car Care Products</h5>
-              <p className="card-text">
-                
-              </p>
+              <p className="card-text"></p>
               <button
                 className="btn-outline modalbtn btn fw-bold"
                 data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop4"
               >
-                <a href="/products#carcare"><span className='text-white'>View Varients</span></a>
-                
-                  
-                
+                <a href="/products#carcare">
+                  <span className="text-white">View Varients</span>
+                </a>
               </button>
             </div>
           </div>
@@ -95,18 +87,18 @@ const Products = () => {
             <img src={productimg} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title fw-bold text-nowrap">
-                Water Treatment<br/> Chemicals
+                Water Treatment
+                <br /> Chemicals
               </h5>
-              <p className="card-text">
-
-              </p>
+              <p className="card-text"></p>
               <button
                 className="btn-outline modalbtn btn fw-bold"
                 data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop5"
               >
-               <a href="/products#watertreatment"><span className='text-white'>View Varients</span></a>
-                
+                <a href="/products#watertreatment">
+                  <span className="text-white">View Varients</span>
+                </a>
               </button>
             </div>
           </div>

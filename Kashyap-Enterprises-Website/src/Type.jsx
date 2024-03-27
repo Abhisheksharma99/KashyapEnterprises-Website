@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 
-const Type = () => {
+const Type = (props) => {
   return (
-    <div className='text-center typeheading fw-bolder mb-5'>
-      <h1 className='fs-3'>Explore The Beautiful Chemistry</h1>
-
+    <div className='text-center typeheading fw-bolder mb-5 pt-5'>
+      <h1 className='fs-3 pt-5'>Explore The Beautiful Chemistry</h1>
       <br />
-
       <ReactTypingEffect
-        text={["Chemistry Is Fun", "Chemists have all the Solutions", "Science is always the solution","With Chemistry, We Can"]}
+        text={props.text}
         speed={5}
         eraseSpeed={5}
         eraseDelay={1500}
